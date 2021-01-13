@@ -1,0 +1,45 @@
+<html>
+<!---------------
+<title>webapp1</title> 
+
+    <head><link rel="stylesheet" href="css/bootstrap.css"></head>
+        <body> 
+        <center>
+            <button type="button" class="btn btn-primary">Press me</button>
+        </center>
+        <script src="js/jquery-3.4.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+</html> 
+----------------->
+<html>
+<body>
+
+<style>
+   button{
+       font-family: 'Courier New', Courier, monospace;
+       font-size: large;
+       border: 2px solid #4CAF50;
+       border-radius: 5px;
+      
+   }
+   button:hover{
+    background-color: #4CAF50; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   } 
+   .happy{
+       margin-top: 20%;
+   }
+  
+</style>
+
+<div class="happy">
+<button type="button"  onclick='document.getElementById("webapp1").innerHTML = "You are loved!"'>Press me</button>
+</div>
+
+<p id="webapp1"></p>
+
+</body>
+</html>

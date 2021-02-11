@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <!----navigation-->
+    <nav>
+      <div class="nav-wrapper" style="background-color: burlywood;">
+        <a href="/" class="brand-logo left"><img class="responsive-img" src="logo.png" style="border-radius: 50%; width: 11%;"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/">Home</a></li>
+          <li><a href="aboutus">About</a></li>
+          <li><a href="contactus">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="/">Home</a></li>
+      <li><a href="aboutus">About</a></li>
+      <li><a href="contactus">Contact Us</a></li>
+    </ul>
+
+      <!--main contents-->
+
+     <center> <h3 style="font-weight: bold; font-size: larger; font-size: 250%; font-family: cursive;">ABOUT US</h3> </center>
+      
+      <div class="row">
+
+        <div class="col s4" style="margin-top: 5%;">
+          <div class="card-panel">
+            <div class="card-image">
+            <center><img src="empowerment.jpg" style="width: 100%; background-color: pink;"></center>
+            </div>
+           <center> <span class="card-title" style="font-family: fantasy; font-style: italic; font-size: larger;">Be the heroine, not the victim</span> </center>
+            <div class="card-content">
+              <p>a group of women who promotes women empowerment</p>
+            </div>
+          </div>
+            </div>
+          
+        
+        <!--end of content 1-->
+        
+        <div class="col s4"style="margin-top: 5%;">
+          <div class="card-panel">
+            <div class="card-image">
+            <center> <img src="skincare.jpg" style="width: 100%;"></center>
+            </div>
+           <center> <span class="card-title" style="font-family: fantasy; font-style: italic; font-size: larger;">Beauty and brain is Power</span></center>
+            <div class="card-content">
+            <center>  <p>Brains last, beauty doesn't</p> </center>
+            </div>   
+          </div>
+        </div>
+
+         <!--end of content 2-->
+
+        <div class="col s4" style="margin-top: 5%;">
+          <div class="card-panel">
+            <div class="card-image">
+            <center> <img src="clothes1.png" style="width: 53%;"></center>
+            </div>
+           <center> <span class="card-title" style="font-family: fantasy; font-style: italic; font-size: larger;">Style is a way to say who you are without having to speak</span></center>
+            <div class="card-content">
+            <center>  <p>Provides gorgeous clothings</p> </center>
+            </div>   
+          </div>
+        </div>
+  
+      </div>
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script>
+         document.addEventListener('DOMContentLoaded', function() {
+         var elems = document.querySelectorAll('.sidenav');
+         var instances = M.Sidenav.init(elems);
+        });
+     </script> 
+  </body>
+</html>
